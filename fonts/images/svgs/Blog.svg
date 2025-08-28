@@ -1,0 +1,10 @@
+<svg id="Blog" xmlns="http://www.w3.org/2000/svg" width="22.4" height="22.4" viewBox="0 0 22.4 22.4">
+  <g id="Group_4318" data-name="Group 4318" transform="translate(18.462 1.312)">
+    <path id="Path_431" data-name="Path 431" d="M425.937,37.875V31.969a1.969,1.969,0,1,0-3.937,0v5.906Z" transform="translate(-422 -30)" fill="#07979d"/>
+    <path id="Path_432" data-name="Path 432" d="M422.225,240a24.151,24.151,0,0,0,1.959,9.642A23.06,23.06,0,0,0,426.143,240Z" transform="translate(-422.215 -230.813)" fill="#07979d"/>
+  </g>
+  <g id="Group_4319" data-name="Group 4319">
+    <path id="Path_433" data-name="Path 433" d="M165,114.272v1.814l1.814-.907Z" transform="translate(-157.781 -109.273)" fill="#07979d"/>
+    <path id="Path_434" data-name="Path 434" d="M0,0V19.687H2.625V22.4l3.5-2.712H17.062V0ZM5.906,2.876l6.061,3.031L5.906,8.937ZM2.625,13.125H5.25v1.312H2.625Zm11.812,3.937H2.625V15.75H14.437Zm0-2.625H6.562V13.125h7.875Zm0-2.625H2.625V10.5H14.437Z" fill="#07979d"/>
+  </g>
+</svg>

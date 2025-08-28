@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <title>XY Circle</title>
+
+    </head>
+
+    <body>
+        <div class="content">
+            <!--==============================Start Header ==============================-->
+            <header class="h__inner clearfix">
+
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="main__bar">
+                                <div class="logo">
+                                    <img src="images/pngs/logo.png">
+
+                                </div>
+
+                                <input class="menu-btn" type="checkbox" id="menu-btn">
+                                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+
+                                <div class="menu">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:;">Home</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a class="dropbtn" href="javascript:;">
+                                                Our Services <i class="ico-arr-down"></i>
+                                            </a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link"><a href="javascript:;">Freelancing <i class="ico-arr-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link"><a href="javascript:;">Workshops & Competitions <i class="ico-arr-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link"><a href="javascript:;">Knowledge Sharing <i class="ico-arr-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                                <a href="#">Link </a>
+                                            </div>
+                                        </li>
+                                        <li class="mr-0"><a class="btn btn-white btn-sm btn-hvr" href="javascript:;">Login</a>
+                                            <a class="btn btn-green btn-sm btn-hvr" href="javascript:;">Signup</a>
+                                        </li>
+                                        <li class="search mr-0"><i class="search-icon"></i></li>
+
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </header>
+
+            <!--==============================End Header ==============================-->
+            <div class="breadcrumb__bar mt__inner">
+                <div class="container-lg">
+                    <div class="row">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Find Jobs</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+            <section class="create-project mt-3">
+                <div class="container-lg">
+                    <!--===================Left Button Group============-->
+                    <div class="row">
+                        <div class="col-md-5 col-lg-4">
+                            <h5> Let's get started with creating your project </h5>
+                            <span> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore
+                                magna aliquyam erat, sed diam voluptua. At vero eos et accusam </span>
+                        </div>
+                        <!--===================Title Tab Contet============-->
+                        <div class="col-12 col-md-7 col-lg-8">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-title" role="tabpanel" aria-labelledby="v-pills-title-tab">
+
+
+                                    <!-- ============= Upper Jumbotron================ -->
+                                    <div class="jumbotron kh-jumbotron">
+                                        <div class="mb-5">
+                                            <h5 class="green-dark">Post your project</h5>
+                                        </div>
+                                        <form class="form mb-3 white-inputs form-postjob">
+                                            <div class="form-group">
+                                                <label for="input-name"> Choose a name for your project</label>
+                                                <input type="text" placeholder="name here" id="input-name" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="input-name"> Describe your project here</label>
+                                                <div class="hint"> Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                    elitr, sed diam nonumy eirmod tempor </div>
+                                                <textarea class="form-control" id="description-text-area" placeholder="enter your description here" rows="3"></textarea>
+                                                <div class="hint text-right green-dark"> 3000 character remaining</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="input-name"> Upload your project files </label>
+                                                <div class="container-cover-img mb-5">
+                                                    <input type="file" id="Cover" class="cover-account" name="Cover" accept="image/*" onchange="loadFile_Cov(event)" data-toggle="modal" data-target="#preview-img-modal_Cov">
+                                                    <span class="upload">upload here </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="input-name">What skills are most important to you in your
+                                                    project? </label>
+                                                <div class="hint"> Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                    elitr, sed diam nonumy eirmod tempor </div>
+                                                <select class="form-control" id="project-category">
+                                                    <option class="selected">select category</option>
+                                                    <option value="1">value 1</option>
+                                                    <option value="2">value 2</option>
+                                                    <option value="3">value 3</option>
+                                                </select>
+                                                <div class="examples mb-5"><span class="c-black font-weight-bold">
+                                                        Suggested Tools :
+                                                    </span><span class="green-dark"> Adobe Xd , Sketch ,
+                                                        Figma, zeplin </span></div>
+                                            </div>
+                                            <div class="form-group has-ex">
+                                                <label for="input-name"> What Tools are most important to you in your
+                                                    project? </label>
+                                                <div class="hint"> Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                    elitr, sed diam nonumy eirmod tempor </div>
+                                                <select class="form-control" id="project-category">
+                                                    <option class="selected">select category</option>
+                                                    <option value="1">value 1</option>
+                                                    <option value="2">value 2</option>
+                                                    <option value="3">value 3</option>
+                                                </select>
+                                                <div class="examples mb-5"><span class="c-black font-weight-bold">
+                                                        Suggested Tools :
+                                                    </span><span class="green-dark"> Adobe Xd , Sketch ,
+                                                        Figma, zeplin </span></div>
+
+                                            </div>
+
+                                        </form>
+                                        <div class="text-left">
+                                            <button class="btn btn-green btn-sm btn-hvr btn-w-icon btn-next" data-toggle="pill" href="#v-pills-description" role="tab">Next<i class="ico ico-arrow"></i></button>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="mb-5"></div>
+        <script src="js/all.js"></script>
+    </body>
+
+</html>
