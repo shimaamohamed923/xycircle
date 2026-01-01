@@ -7,7 +7,6 @@ XYZcircle focuses on three main axes: freelancing, education, and knowledge shar
 ## 🔗 Demo
 
 - Live Demo: https://xycircle.vercel.app/
-- Video Walkthrough: https://loom.com/your-video-link
 
 ---
 
@@ -61,10 +60,15 @@ This project uses **Gulp** to automate frontend tasks such as:
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="700" />
+  <img src="screenshots/findfreelance.gif" width="300" />
   <br />
+  <img src="screenshots/findjob.png" width="300" />
+      <br />
+  <img src="screenshots/jobdesc.png" width="300" />
+    <br />
   <img src="screenshots/mobile.png" width="300" />
 </p>
+
 ---
 
 ## 🔄 Workflow
