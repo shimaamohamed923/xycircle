@@ -1,0 +1,7 @@
+# 1. Men3 kol el-files el-HTML
+*.html
+
+# 2. Istesna2 file mo3ayan (asta5demi 3alamet el-t3gb !)
+!post-job.html
+!view-workshops.html
+!workshops.html
