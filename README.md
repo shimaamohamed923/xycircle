@@ -1,4 +1,4 @@
-# xycircle Name
+# xyzcircle 
 
 XYZcircle focuses on three main axes: freelancing, education, and knowledge sharing. So, we intend to change the world's vision towards how to be more productive and pro-active in freelancers’ lives.
 
